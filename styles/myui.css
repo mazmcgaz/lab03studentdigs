@@ -1,0 +1,24 @@
+.bkimg {
+  background-image: url(../duncan-kidd.jpg);
+  background-size: 100%;
+}
+
+a.changecol {
+  color: #000000 !important;
+}
+
+/* This controls how much of the bkgd image is shown */
+.join {
+  padding-top: 60%;
+  padding-bottom: 20%;
+}
+
+/* media query - when mobile phone views the page */
+@media only screen and (max-width: 767px) {
+  .uk-grid {
+    flex-direction: column-reverse;
+  }
+  .uk-navbar-nav {
+    padding: 10%;
+  }
+}

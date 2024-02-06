@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>student digs</title>
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/css/uikit.min.css"
+    />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit-icons.min.js"></script>
+
+    <link rel="stylesheet" href="styles/myui.css" />
+  </head>
+
+  <body>
+    <!--LEFT hand side grid -->
+    <div uk-grid>
+      <div class="uk-width-1-2@s">
+        <div class="uk-padding">
+          <span uk-icon="icon: social; ratio: 2"></span>
+          <span class="uk-text-lead">StudentDigs</span>
+        </div>
+
+        <div class="uk-padding-small">
+          <h1 class="uk-heading-bullet">Find your perfect student digs</h1>
+        </div>
+        <div class="uk-padding">
+          <form class="uk-form-horizontal">
+            <input
+              class="uk-input uk-form-width-medium uk-form-large"
+              type="text"
+              placeholder="area"
+              aria-label="Large"
+            />
+            <a class="uk-button uk-button-secondary uk-button-large">SEARCH</a>
+          </form>
+          <br />
+
+          <div class="text">The most popular property finder for students.</div>
+        </div>
+      </div>
+
+      <!-- RIGHT hand side grid -->
+      <div class="uk-width-1-2@s bkimg">
+        <!-- uk-navbar-container class is used to define a container for the navbar-->
+        <!----uk-navbar-transparent: means it shows the image in the bkgd-->
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+          <!-- means content will be on the left-->
+          <div class="uk-navbar-left">
+            <!-- UL ie unordred list, the navbar items will be a UL-->
+            <ul class="uk-navbar-nav">
+              <!-- all the stuff in the nav bar-->
+              <li class="uk-active"><a href="#">Home</a></li>
+              <li><a href="#" class="changecol">Areas</a></li>
+              <li><a href="#" class="changecol">Search</a></li>
+              <li><a href="#" class="changecol">Sign in</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="join">
+          <a class="uk-button uk-button-primary">JOIN TODAY</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="uk-container uk-margin-top">
+      <h2 class="uk-heading-line uk-text-right"><span>Top picks digs</span></h2>
+      <div
+        class="uk-grid-column-small uk-grid-match uk-grid-row-large uk-child-width-1-3@s"
+        uk-grid
+      >
+        <div>
+          <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+            <h3 class="uk-card-title">Ormeau Apartment</h3>
+            <img
+              src="https://images.unsplash.com/photo-1416339306562-f3d12fefd36f"
+              alt="laptop desk"
+            />
+            <p>✓ Ultra modern</p>
+            <p>𓉞 2 bedrooms</p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+            <h3 class="uk-card-title">Stranmillis Apartment</h3>
+            <img
+              src="https://images.unsplash.com/photo-1658089306060-f56ec95cbb8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80"
+              alt="apartment building"
+            />
+            <p>✓ Waterside views</p>
+            <p>𓉞 2 bedrooms</p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+            <h3 class="uk-card-title">Malone Ave Apartment</h3>
+            <img
+              src="https://images.unsplash.com/photo-1613900412286-13d398a17665"
+              alt="inside of apartment"
+            />
+            <p>✓ Close to University</p>
+            <p>𓉞 3 bedrooms</p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+            <h3 class="uk-card-title">Lisburn rd Apartment</h3>
+            <img
+              src="https://images.unsplash.com/photo-1557226217-20f449ace39f"
+              alt="Outside of apartment block"
+            />
+            <p>✓ Close to University</p>
+            <p>𓉞 2 bedrooms</p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+            <h3 class="uk-card-title">Lisburn Road</h3>
+            <img
+              src="https://images.unsplash.com/photo-1632301820155-d76aeaab01a5"
+              alt="Outside of houses"
+            />
+            <p>✓ Close to shop</p>
+            <p>𓉞 4 bedrooms</p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+            <h3 class="uk-card-title">Stranmillis Apartment</h3>
+            <img
+              src="https://images.unsplash.com/photo-1495368427887-e88d33a44e0f"
+              alt="sunrise street view"
+            />
+            <p>✓ Waterside views</p>
+            <p>𓉞 2 bedrooms</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
